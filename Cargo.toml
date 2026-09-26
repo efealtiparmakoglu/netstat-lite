@@ -1,0 +1,11 @@
+[package]
+name = "netstat-lite"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.82"
+description = "Socket table viewer with process mapping, filters and live refresh — zero dependencies"
+license = "MIT"
+
+[profile.release]
+lto = true
+codegen-units = 1
